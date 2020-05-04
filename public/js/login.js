@@ -1,0 +1,20 @@
+$(document).ready(function(){
+    $(".a_login").click(function(){ 
+         $(".top_login_main").css("display","block");
+    });
+    $("#login_close").click(function(){
+        $(".top_login_main").css("display","none")
+    });
+    $("#zhuceBtn").click(function(){
+        $("#login_id").css("display","none");
+        $("#zhuce_div").css("display","block");
+    });
+    $("#zhuce_close").click(function(){
+        $("#login_id").css("display","block");
+        $("#zhuce_div").css("display","none");
+        $(".top_login_main").css("display","none");      
+    });
+    $("#user_login_btn").click(function(){
+        $(".a_login").css("display","none");
+    });
+});

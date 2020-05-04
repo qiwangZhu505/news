@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $("#news_list").click(function(){
+        $(".news_table").css("display","block");
+        $(".add_news").css("display","none");
+    });
+    $("#add_news").click(function(){
+        $(".news_table").css("display","none");
+        $(".add_news").css("display","block");
+    });
+});
