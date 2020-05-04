@@ -1,0 +1,181 @@
+
+.top{
+    height: 60px;
+}
+.menu{
+    height:50px;
+    background-color:rgb(94, 91, 91);
+    margin-bottom:10px;
+    position:sticky;
+    top:0px;
+    z-index: 100;
+}
+.top_center{
+    width:1200px;
+    height:55px;
+    margin:0 auto;
+    position:relative;
+    background-color:white;
+    box-shadow:0 1px 5px gray;
+}
+.menu_center{
+    height:50px;
+    width:1200px;
+    margin:0 auto;
+}
+
+span{
+    width:100px;
+    height:50px;
+    
+}
+.menu_title{
+    text-decoration:none;
+}
+ul,a,body,div,footer,form,h1,h2,h3,h4,h5,h6,p,html,img,span,table,th,tr,td{
+    margin:0;
+    padding:0;
+}
+.menu_a{
+    color:white;
+    padding:0 30px;
+    display:block;
+}
+li{
+    list-style-type:none;
+}
+a{
+    text-decoration:none;
+}
+.menu_li{
+    height:50px;
+    float:left;
+    vertical-align:top;
+    font-size:20px;
+    line-height:50px;;
+    position:relative;
+}
+a.menu_a:hover{
+    background-color:rgb(59, 53, 53);
+}
+.top_search{
+    width:350px;
+    height:35px;
+    margin:0 auto;
+    border:1px solid rgb(133, 130, 130);
+    position:absolute;
+    left:420px;
+    top:12px;
+    border-radius: 5px;
+}
+.search_text{
+    width:295px;
+    height:31px;
+    border-radius: 5px 0 0 5px;
+    border:1px solid gray;
+}
+.top_logo{
+    position: absolute;
+}
+.top_login{
+    float:right;
+    padding:0 20px;
+    line-height: 55px;
+    font-size: 20px;
+    display:block;
+    position: absolute;
+    right: 20px;
+}
+.top_login_main{
+    display: none;                 /*登录注册界面是否显示*/
+}
+.top_login_div{
+    width:100%;
+    height:100%;
+    background-color:black;
+    position:fixed;
+    z-index:100;
+    opacity:.5;
+}
+#login_id{
+    display:block;                               /*登录界面是否显示*/
+    border-radius: 7px;
+    width:400px;
+    height:400px;
+    background-color:rgb(255, 255, 255);
+    opacity:1;
+    position: fixed;
+    top:25%;
+    left:35%;
+    z-index:200;
+}
+#user_login{
+    width:250px;
+    height:80%;
+    position:absolute;
+    left:75px;
+    top:70px;
+}
+.userlogin{
+    width: 250px;
+    font-size: 16px;
+    line-height: 45px;
+    color: #b0b0b0;
+    background: #fff;
+    vertical-align: top;
+    height: 43px;
+    padding-left: 10px;
+    float: left;
+    border-radius: 6px;
+    border: 1px #a19e9e solid;
+    margin:20px 20px 0 0;
+}
+.userloginbtn{
+    width:250px;
+    font-size:20px;
+    line-height:45px;
+    color: rgb(221, 198, 96);
+    background:rgb(92, 90, 90);
+    height:43px;
+    border-radius:6px;
+    vertical-align: top;
+    margin-top:40px;
+}
+.userloginbtn:hover{
+    background:rgb(70, 68, 68);
+}
+#user_login a{
+    position:relative;
+    float:right;
+    color:black;   
+}
+#user_login a:hover{
+    color:rgb(224, 181, 87);
+}
+#login_id a{
+    float:right;
+    margin:5px;
+}
+#zhuce_div{
+    display:none;          /*注册是否显示*/
+    border-radius: 7px;
+    width:400px;
+    height:400px;
+    background-color:white;
+    opacity:1;
+    position: fixed;
+    top:25%;
+    left:35%;
+    z-index:200;
+}
+#zhuce_div a{
+    float:right;
+    margin:5px;
+}
+#user_zhuce{
+    width:250px;
+    height:80%;
+    position:absolute;
+    left:75px;
+    top:70px;
+}

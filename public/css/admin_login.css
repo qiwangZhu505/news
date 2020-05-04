@@ -1,0 +1,49 @@
+ul,a,body,div,footer,form,h1,h2,h3,h4,h5,h6,p,html,img,span,table,th,tr,td{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color:rgb(233, 233, 233);
+}
+.main{
+    width:400px;
+    height:400px;
+    border:1px solid rgb(158, 158, 158);
+    position:relative;
+    top:100px;
+    background-color:white;
+    margin:0 auto;
+    border-radius:20px;
+}
+.main_center{
+    width:250px;
+    height:400px;
+    margin:0 auto;
+    position:relative;
+    top:50px;
+}
+.main_center input{
+    width:250px;
+    height:40px;
+    margin:30px 0px 10px 0px;
+    border-radius:6px;
+    border:1px solid rgb(158, 158, 158);
+    font-size:15px;
+}
+.zhuce{
+    float:right;
+}
+#button{
+    background-color:rgb(117, 110, 110);
+    color:white;
+    font-size:18px;
+    letter-spacing: 8px;
+    text-align: center;
+    line-height: 40px;
+}
+#button:hover{
+    background-color:gray;
+}

@@ -1,0 +1,127 @@
+ul,a,body,div,footer,form,h1,h2,h3,h4,h5,h6,p,html,img,span,table,th,tr,td{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+.body{
+    width:1518px;
+    margin:0 auto;
+}
+.top{
+    width:1518;
+    height:70px;
+    background-color:rgb(25, 119, 148);
+    position:relative;
+    color:white;
+    
+}
+.top span{
+    font-size: 30px;
+    line-height: 70px;
+    position:absolute;
+    left:560px;
+    letter-spacing: 30px;
+}
+.menu{
+    width:227px;
+    height:650px;
+    background-color: rgb(192, 188, 188);
+    border:1px solid rgb(0, 0, 0);
+    position:absolute;
+    float:left;
+}
+.main{
+    width:1291px;
+    height:650px;
+    border:1px solid black;
+    background-color: rgb(240, 240, 240);
+    float:right;
+}
+.menu span{
+    width:100px;
+    height:20px;
+    border:1px solid black;
+}
+.menu_table div{
+    width:227px;
+    height:40px;
+    background-color: rgb(101, 201, 231);
+    border-bottom:2px solid white;
+    font-size:18px;
+    line-height: 40px;
+    color:white;
+    text-align: center;
+}
+.menu_table div:first-child{
+    background-color:rgb(34, 142, 185);
+}
+.news_table{
+    display:none;
+}
+.add_news{
+    display:none;
+}
+.add_news_top{
+    width:1271px;
+    height:50px;
+    line-height: 50px;
+    font-size: 20px;
+    color:white;
+    background-color:rgb(53, 152, 218);
+    letter-spacing: 20px;
+    padding-left:20px;
+}
+.add_news_body div{
+    margin: 40px 60px;
+}
+.news_table_top{
+    width:1271px;
+    height:50px;
+    line-height: 50px;
+    font-size: 20px;
+    color:white;
+    background-color:rgb(53, 152, 218);
+    letter-spacing: 20px;
+    padding-left:20px;
+}
+.article_list{
+    height:601px;
+    width:1290px;
+    overflow: scroll;
+}
+table{
+    width:1270px;
+
+}
+.tr_first td{
+    background-color: rgb(61, 181, 236);
+    color: white;
+    font-size: 18px;
+}
+table td{
+    text-align: center;
+    border-bottom:1px solid rgb(199, 196, 196);
+}
+.table_id{
+    width:10%;
+}
+.table_title{
+    width:35%;
+}
+.table_type{
+    width:10%;
+}
+.table_time{
+    width:15%;
+}
+.table_comment{
+    width:10%;
+}
+.table_click{
+    width:10%;
+}
+.table_delete{
+    width:10%;
+}
