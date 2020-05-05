@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var timer = null; //声明一个全局定时器
+    var timer = null;
 			var index = 0;	
 			$(".next").click(function(){ //下一张
 				next();
@@ -10,12 +10,9 @@ $(document).ready(function(){
 			function next(){
 				index++;
 				if(index > 2){
-					/*
-					当图片到最后一张时跳回第一张，本例中在最后一张中放入了第一张的图片，为实现无缝切换图片的效果。
-					*/
 					 $(".pic-list").animate({left:-(index)*840},500); 
 					 index = 0;
-					 $(".pic-list").animate({left:0},0); //
+					 $(".pic-list").animate({left:0},0); 
 				}
 				$(".pic-list").animate({left:-index*840},500);
 				iconHover(index);
